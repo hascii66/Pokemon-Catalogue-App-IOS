@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450691352EFD7EA3004A02B5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 450691342EFD7EA3004A02B5 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450690DA2EFD73D2004A02B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450690C22EFD73D1004A02B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450690C92EFD73D1004A02B5;
+			remoteInfo = "Pokémon Catalogue";
+		};
+		450690E42EFD73D2004A02B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450690C22EFD73D1004A02B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450690C92EFD73D1004A02B5;
+			remoteInfo = "Pokémon Catalogue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450690CA2EFD73D1004A02B5 /* Pokémon Catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokémon Catalogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450690D92EFD73D2004A02B5 /* Pokémon CatalogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokémon CatalogueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450690E32EFD73D2004A02B5 /* Pokémon CatalogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokémon CatalogueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		450690CC2EFD73D1004A02B5 /* Pokémon Catalogue */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pokémon Catalogue";
+			sourceTree = "<group>";
+		};
+		450690DC2EFD73D2004A02B5 /* Pokémon CatalogueTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pokémon CatalogueTests";
+			sourceTree = "<group>";
+		};
+		450690E62EFD73D2004A02B5 /* Pokémon CatalogueUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pokémon CatalogueUITests";
+			sourceTree = "<group>";
+		};
+		450690F92EFD75A3004A02B5 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		450691002EFD75B9004A02B5 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		450691072EFD75CF004A02B5 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4506910B2EFD75FE004A02B5 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		450691302EFD7AA9004A02B5 /* Lottie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		450691412EFD86FD004A02B5 /* Theme */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450690C72EFD73D1004A02B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450691352EFD7EA3004A02B5 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450690D62EFD73D2004A02B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450690E02EFD73D2004A02B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450690C12EFD73D1004A02B5 = {
+			isa = PBXGroup;
+			children = (
+				450691412EFD86FD004A02B5 /* Theme */,
+				450691302EFD7AA9004A02B5 /* Lottie */,
+				450691072EFD75CF004A02B5 /* ViewModels */,
+				450691002EFD75B9004A02B5 /* Services */,
+				450690F92EFD75A3004A02B5 /* Models */,
+				450690CC2EFD73D1004A02B5 /* Pokémon Catalogue */,
+				4506910B2EFD75FE004A02B5 /* Views */,
+				450690DC2EFD73D2004A02B5 /* Pokémon CatalogueTests */,
+				450690E62EFD73D2004A02B5 /* Pokémon CatalogueUITests */,
+				450691332EFD7EA3004A02B5 /* Frameworks */,
+				450690CB2EFD73D1004A02B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		450690CB2EFD73D1004A02B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450690CA2EFD73D1004A02B5 /* Pokémon Catalogue.app */,
+				450690D92EFD73D2004A02B5 /* Pokémon CatalogueTests.xctest */,
+				450690E32EFD73D2004A02B5 /* Pokémon CatalogueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450691332EFD7EA3004A02B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450690C92EFD73D1004A02B5 /* Pokémon Catalogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450690ED2EFD73D2004A02B5 /* Build configuration list for PBXNativeTarget "Pokémon Catalogue" */;
+			buildPhases = (
+				450690C62EFD73D1004A02B5 /* Sources */,
+				450690C72EFD73D1004A02B5 /* Frameworks */,
+				450690C82EFD73D1004A02B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				450690CC2EFD73D1004A02B5 /* Pokémon Catalogue */,
+				450690F92EFD75A3004A02B5 /* Models */,
+				450691002EFD75B9004A02B5 /* Services */,
+				450691072EFD75CF004A02B5 /* ViewModels */,
+				4506910B2EFD75FE004A02B5 /* Views */,
+				450691302EFD7AA9004A02B5 /* Lottie */,
+				450691412EFD86FD004A02B5 /* Theme */,
+			);
+			name = "Pokémon Catalogue";
+			packageProductDependencies = (
+				450691342EFD7EA3004A02B5 /* Lottie */,
+			);
+			productName = "Pokémon Catalogue";
+			productReference = 450690CA2EFD73D1004A02B5 /* Pokémon Catalogue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		450690D82EFD73D2004A02B5 /* Pokémon CatalogueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450690F02EFD73D2004A02B5 /* Build configuration list for PBXNativeTarget "Pokémon CatalogueTests" */;
+			buildPhases = (
+				450690D52EFD73D2004A02B5 /* Sources */,
+				450690D62EFD73D2004A02B5 /* Frameworks */,
+				450690D72EFD73D2004A02B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450690DB2EFD73D2004A02B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				450690DC2EFD73D2004A02B5 /* Pokémon CatalogueTests */,
+			);
+			name = "Pokémon CatalogueTests";
+			packageProductDependencies = (
+			);
+			productName = "Pokémon CatalogueTests";
+			productReference = 450690D92EFD73D2004A02B5 /* Pokémon CatalogueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		450690E22EFD73D2004A02B5 /* Pokémon CatalogueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450690F32EFD73D2004A02B5 /* Build configuration list for PBXNativeTarget "Pokémon CatalogueUITests" */;
+			buildPhases = (
+				450690DF2EFD73D2004A02B5 /* Sources */,
+				450690E02EFD73D2004A02B5 /* Frameworks */,
+				450690E12EFD73D2004A02B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450690E52EFD73D2004A02B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				450690E62EFD73D2004A02B5 /* Pokémon CatalogueUITests */,
+			);
+			name = "Pokémon CatalogueUITests";
+			packageProductDependencies = (
+			);
+			productName = "Pokémon CatalogueUITests";
+			productReference = 450690E32EFD73D2004A02B5 /* Pokémon CatalogueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450690C22EFD73D1004A02B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					450690C92EFD73D1004A02B5 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					450690D82EFD73D2004A02B5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 450690C92EFD73D1004A02B5;
+					};
+					450690E22EFD73D2004A02B5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 450690C92EFD73D1004A02B5;
+					};
+				};
+			};
+			buildConfigurationList = 450690C52EFD73D1004A02B5 /* Build configuration list for PBXProject "Pokémon Catalogue" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450690C12EFD73D1004A02B5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				450691292EFD79B2004A02B5 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 450690CB2EFD73D1004A02B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450690C92EFD73D1004A02B5 /* Pokémon Catalogue */,
+				450690D82EFD73D2004A02B5 /* Pokémon CatalogueTests */,
+				450690E22EFD73D2004A02B5 /* Pokémon CatalogueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450690C82EFD73D1004A02B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450690D72EFD73D2004A02B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450690E12EFD73D2004A02B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450690C62EFD73D1004A02B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450690D52EFD73D2004A02B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450690DF2EFD73D2004A02B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450690DB2EFD73D2004A02B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450690C92EFD73D1004A02B5 /* Pokémon Catalogue */;
+			targetProxy = 450690DA2EFD73D2004A02B5 /* PBXContainerItemProxy */;
+		};
+		450690E52EFD73D2004A02B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450690C92EFD73D1004A02B5 /* Pokémon Catalogue */;
+			targetProxy = 450690E42EFD73D2004A02B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		450690EB2EFD73D2004A02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		450690EC2EFD73D2004A02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450690EE2EFD73D2004A02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokémon Catalogue";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hascii.Poke-mon-Catalogue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450690EF2EFD73D2004A02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokémon Catalogue";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hascii.Poke-mon-Catalogue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		450690F12EFD73D2004A02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hascii.Poke-mon-CatalogueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokémon Catalogue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pokémon Catalogue";
+			};
+			name = Debug;
+		};
+		450690F22EFD73D2004A02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hascii.Poke-mon-CatalogueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokémon Catalogue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pokémon Catalogue";
+			};
+			name = Release;
+		};
+		450690F42EFD73D2004A02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hascii.Poke-mon-CatalogueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pokémon Catalogue";
+			};
+			name = Debug;
+		};
+		450690F52EFD73D2004A02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7LBH352P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hascii.Poke-mon-CatalogueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pokémon Catalogue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450690C52EFD73D1004A02B5 /* Build configuration list for PBXProject "Pokémon Catalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450690EB2EFD73D2004A02B5 /* Debug */,
+				450690EC2EFD73D2004A02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450690ED2EFD73D2004A02B5 /* Build configuration list for PBXNativeTarget "Pokémon Catalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450690EE2EFD73D2004A02B5 /* Debug */,
+				450690EF2EFD73D2004A02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450690F02EFD73D2004A02B5 /* Build configuration list for PBXNativeTarget "Pokémon CatalogueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450690F12EFD73D2004A02B5 /* Debug */,
+				450690F22EFD73D2004A02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450690F32EFD73D2004A02B5 /* Build configuration list for PBXNativeTarget "Pokémon CatalogueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450690F42EFD73D2004A02B5 /* Debug */,
+				450690F52EFD73D2004A02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		450691292EFD79B2004A02B5 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 4.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		450691342EFD7EA3004A02B5 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 450691292EFD79B2004A02B5 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 450690C22EFD73D1004A02B5 /* Project object */;
+}
