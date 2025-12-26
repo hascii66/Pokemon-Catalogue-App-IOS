@@ -1,5 +1,9 @@
 # **Pokémon Catalogue App (iOS)**
 
+
+https://github.com/user-attachments/assets/a462fbde-26f6-41fc-9a06-f1e0e1f4ba47
+
+
 A native iOS application built with **SwiftUI** that displays Generation 1 Pokémon using live data from the [PokéAPI](https://pokeapi.co/). The app features a robust catalogue, a personal backpack system, and full offline support.
 
 ## **📱 Features**
